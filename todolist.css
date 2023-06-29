@@ -1,0 +1,77 @@
+body{
+    background-image:url('https://img.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938724.jpg') ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #1a0d0de7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center; 
+    color: rgb(208, 249, 74);
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  li i {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+ 
+  
